@@ -21,5 +21,20 @@ namespace BMIS_Test_WinForms_dotnet4._8
         {
 
         }
+
+        private void btn_BrgyDocuments_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

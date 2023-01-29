@@ -67,6 +67,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Maintenance_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance_Form.Designer.cs">
+      <DependentUpon>Maintenance_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Document_Form.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance_Form.resx">
+      <DependentUpon>Maintenance_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +110,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Segoe Fluent Icons Regular - Report Document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Segoe Fluent Icons Regular - Document %28Small%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
