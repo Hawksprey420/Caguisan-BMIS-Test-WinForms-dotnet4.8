@@ -209,7 +209,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gold;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.btn_Payments);
             this.panel1.Controls.Add(this.label2);
@@ -320,7 +320,7 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(74, 400);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(623, 49);
+            this.label8.Size = new System.Drawing.Size(626, 49);
             this.label8.TabIndex = 0;
             this.label8.Text = "Start managing your barangay, now.";
             // 

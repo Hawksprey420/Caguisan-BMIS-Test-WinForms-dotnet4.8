@@ -53,9 +53,14 @@ namespace BMIS_Test_WinForms_dotnet4._8
 
         }
 
-        private void btn_Maintenance_Click(object sender, EventArgs e)
-        {
+        private void btn_Maintenance_Click(object sender, EventArgs e) => btn_Maintenance_Click(sender, e, new Maintenance_Form());
 
+        private void btn_Maintenance_Click(object sender, EventArgs e, Maintenance_Form f)
+        {
+            f.TopLevel = false;
+            panel3.Controls.Add(f);
+            f.BringToFront();
+            f.Show();
         }
 
         private void btn_Reports_Click(object sender, EventArgs e)
