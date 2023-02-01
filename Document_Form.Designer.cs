@@ -55,7 +55,7 @@
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
-            this.metroTabControl1.Size = new System.Drawing.Size(1634, 175);
+            this.metroTabControl1.Size = new System.Drawing.Size(1386, 175);
             this.metroTabControl1.TabIndex = 0;
             this.metroTabControl1.UseSelectable = true;
             this.metroTabControl1.UseStyleColors = true;
@@ -68,7 +68,7 @@
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 41);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1626, 130);
+            this.metroTabPage1.Size = new System.Drawing.Size(1378, 130);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Documents";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
@@ -93,7 +93,7 @@
             this.metroPanel1.HorizontalScrollbarSize = 10;
             this.metroPanel1.Location = new System.Drawing.Point(0, 0);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(1626, 136);
+            this.metroPanel1.Size = new System.Drawing.Size(1378, 136);
             this.metroPanel1.TabIndex = 2;
             this.metroPanel1.UseStyleColors = true;
             this.metroPanel1.VerticalScrollbarBarColor = true;
@@ -103,13 +103,14 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.Menu;
+            this.label5.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(543, 26);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 29);
             this.label5.TabIndex = 19;
             this.label5.Text = "";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // btn_Residency
             // 
@@ -126,17 +127,19 @@
             this.btn_Residency.Text = "Residency";
             this.btn_Residency.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_Residency.UseVisualStyleBackColor = false;
+            this.btn_Residency.Click += new System.EventHandler(this.btn_Residency_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.Menu;
+            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(421, 26);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 29);
             this.label4.TabIndex = 17;
             this.label4.Text = "";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // btn_Indigency
             // 
@@ -153,17 +156,19 @@
             this.btn_Indigency.Text = "Indigency";
             this.btn_Indigency.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_Indigency.UseVisualStyleBackColor = false;
+            this.btn_Indigency.Click += new System.EventHandler(this.btn_Indigency_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Menu;
+            this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(299, 26);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 29);
             this.label3.TabIndex = 15;
             this.label3.Text = "";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btn_BrgyBusinessPermit
             // 
@@ -180,17 +185,19 @@
             this.btn_BrgyBusinessPermit.Text = "Business Permit";
             this.btn_BrgyBusinessPermit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_BrgyBusinessPermit.UseVisualStyleBackColor = false;
+            this.btn_BrgyBusinessPermit.Click += new System.EventHandler(this.btn_BrgyBusinessPermit_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Menu;
+            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(178, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 29);
             this.label2.TabIndex = 13;
             this.label2.Text = "";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btn_BrgyFranchise
             // 
@@ -212,7 +219,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Menu;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(52, 26);
             this.label1.Name = "label1";
@@ -243,14 +250,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 175);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1634, 821);
+            this.panel1.Size = new System.Drawing.Size(1386, 613);
             this.panel1.TabIndex = 1;
             // 
             // Document_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1634, 996);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.metroTabControl1);

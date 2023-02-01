@@ -53,12 +53,22 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            pictureBox1.Location = new System.Drawing.Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(111, 99);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btn_ResidentRecords
             // 
@@ -170,7 +180,7 @@
             this.bttn_Logout.FlatAppearance.BorderSize = 0;
             this.bttn_Logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_Logout.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttn_Logout.Location = new System.Drawing.Point(0, 819);
+            this.bttn_Logout.Location = new System.Drawing.Point(0, 699);
             this.bttn_Logout.Name = "bttn_Logout";
             this.bttn_Logout.Size = new System.Drawing.Size(343, 50);
             this.bttn_Logout.TabIndex = 9;
@@ -219,7 +229,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(343, 869);
+            this.panel1.Size = new System.Drawing.Size(343, 749);
             this.panel1.TabIndex = 0;
             // 
             // btn_Payments
@@ -290,7 +300,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(343, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1416, 869);
+            this.panel3.Size = new System.Drawing.Size(1027, 749);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -310,7 +320,7 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(74, 400);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(626, 49);
+            this.label8.Size = new System.Drawing.Size(623, 49);
             this.label8.TabIndex = 0;
             this.label8.Text = "Start managing your barangay, now.";
             // 
@@ -319,33 +329,24 @@
             this.pictureBox2.BackgroundImage = global::BMIS_Test_WinForms_dotnet4._8.Properties.Resources.pngwing_com;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 539);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 419);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1416, 330);
+            this.pictureBox2.Size = new System.Drawing.Size(1027, 330);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            pictureBox1.Location = new System.Drawing.Point(12, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(111, 99);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1759, 869);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Barangay Caguisan Management System - Beta";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -353,7 +354,6 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
