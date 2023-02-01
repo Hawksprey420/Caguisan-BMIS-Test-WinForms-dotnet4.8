@@ -33,12 +33,14 @@
             this.BarangayOfficialsAndStaff = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage_BarangayOfficialsAndStaff = new MetroFramework.Controls.MetroTabPage();
             this.Purok = new MetroFramework.Controls.MetroTabPage();
+            this.bttn_Close = new System.Windows.Forms.Button();
             this.metroPanel2.SuspendLayout();
             this.BarangayOfficialsAndStaff.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroPanel2
             // 
+            this.metroPanel2.Controls.Add(this.bttn_Close);
             this.metroPanel2.Controls.Add(this.metroLabel1);
             this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.metroPanel2.HorizontalScrollbarBarColor = true;
@@ -116,6 +118,22 @@
             this.Purok.VerticalScrollbarHighlightOnWheel = false;
             this.Purok.VerticalScrollbarSize = 10;
             // 
+            // bttn_Close
+            // 
+            this.bttn_Close.AutoSize = true;
+            this.bttn_Close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bttn_Close.Dock = System.Windows.Forms.DockStyle.Right;
+            this.bttn_Close.FlatAppearance.BorderSize = 0;
+            this.bttn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttn_Close.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttn_Close.Location = new System.Drawing.Point(1105, 0);
+            this.bttn_Close.Name = "bttn_Close";
+            this.bttn_Close.Size = new System.Drawing.Size(281, 51);
+            this.bttn_Close.TabIndex = 3;
+            this.bttn_Close.Text = "Close this panel";
+            this.bttn_Close.UseVisualStyleBackColor = true;
+            this.bttn_Close.Click += new System.EventHandler(this.bttn_Close_Click);
+            // 
             // Maintenance_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,5 +164,6 @@
         private MetroFramework.Controls.MetroTabControl BarangayOfficialsAndStaff;
         private MetroFramework.Controls.MetroTabPage metroTabPage_BarangayOfficialsAndStaff;
         private MetroFramework.Controls.MetroTabPage Purok;
+        private System.Windows.Forms.Button bttn_Close;
     }
 }

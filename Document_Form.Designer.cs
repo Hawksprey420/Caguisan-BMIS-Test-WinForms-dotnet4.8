@@ -55,7 +55,7 @@
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
-            this.metroTabControl1.Size = new System.Drawing.Size(1386, 788);
+            this.metroTabControl1.Size = new System.Drawing.Size(1498, 851);
             this.metroTabControl1.TabIndex = 0;
             this.metroTabControl1.UseCustomBackColor = true;
             this.metroTabControl1.UseCustomForeColor = true;
@@ -70,7 +70,7 @@
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 41);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1378, 743);
+            this.metroTabPage1.Size = new System.Drawing.Size(1490, 806);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Documents";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
@@ -79,6 +79,7 @@
             // 
             // metroPanel1
             // 
+            this.metroPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroPanel1.Controls.Add(this.label5);
             this.metroPanel1.Controls.Add(this.btn_Residency);
             this.metroPanel1.Controls.Add(this.label4);
@@ -89,13 +90,13 @@
             this.metroPanel1.Controls.Add(this.btn_BrgyFranchise);
             this.metroPanel1.Controls.Add(this.label1);
             this.metroPanel1.Controls.Add(this.btn_BrgyDocuments);
-            this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
             this.metroPanel1.Location = new System.Drawing.Point(0, 0);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(1378, 743);
+            this.metroPanel1.Size = new System.Drawing.Size(1490, 806);
             this.metroPanel1.TabIndex = 2;
             this.metroPanel1.UseCustomBackColor = true;
             this.metroPanel1.UseStyleColors = true;
@@ -251,16 +252,16 @@
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 788);
+            this.panel1.Location = new System.Drawing.Point(0, 851);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1386, 0);
+            this.panel1.Size = new System.Drawing.Size(1498, 12);
             this.panel1.TabIndex = 1;
             // 
             // Document_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.ClientSize = new System.Drawing.Size(1498, 863);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.metroTabControl1);

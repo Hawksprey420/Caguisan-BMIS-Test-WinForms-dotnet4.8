@@ -36,5 +36,10 @@ namespace BMIS_Test_WinForms_dotnet4._8
         {
 
         }
+
+        private void bttn_Close_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
