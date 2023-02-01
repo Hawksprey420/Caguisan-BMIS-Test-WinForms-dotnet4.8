@@ -16,5 +16,25 @@ namespace BMIS_Test_WinForms_dotnet4._8
         {
             InitializeComponent();
         }
+
+        private void Maintenance_Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bttn_ClosePanel_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void metroPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -28,208 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
+            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.Maitenance = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
-            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btn_Residency = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btn_Indigency = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btn_BrgyBusinessPermit = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btn_BrgyFranchise = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_BrgyDocuments = new System.Windows.Forms.Button();
-            this.metroTabControl1.SuspendLayout();
-            this.metroTabPage1.SuspendLayout();
-            this.metroPanel1.SuspendLayout();
+            this.metroPanel2.SuspendLayout();
+            this.Maitenance.SuspendLayout();
             this.SuspendLayout();
             // 
-            // metroTabControl1
+            // metroPanel2
             // 
-            this.metroTabControl1.Controls.Add(this.metroTabPage1);
-            this.metroTabControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
-            this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 0;
-            this.metroTabControl1.Size = new System.Drawing.Size(1386, 195);
-            this.metroTabControl1.TabIndex = 0;
-            this.metroTabControl1.UseSelectable = true;
+            this.metroPanel2.Controls.Add(this.metroLabel1);
+            this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.metroPanel2.HorizontalScrollbarBarColor = true;
+            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.HorizontalScrollbarSize = 10;
+            this.metroPanel2.Location = new System.Drawing.Point(0, 0);
+            this.metroPanel2.Name = "metroPanel2";
+            this.metroPanel2.Size = new System.Drawing.Size(1386, 51);
+            this.metroPanel2.TabIndex = 3;
+            this.metroPanel2.UseCustomBackColor = true;
+            this.metroPanel2.UseCustomForeColor = true;
+            this.metroPanel2.UseStyleColors = true;
+            this.metroPanel2.VerticalScrollbarBarColor = true;
+            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel1.Location = new System.Drawing.Point(27, 9);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(111, 25);
+            this.metroLabel1.TabIndex = 2;
+            this.metroLabel1.Text = "metroLabel1";
+            this.metroLabel1.UseCustomBackColor = true;
+            this.metroLabel1.UseCustomForeColor = true;
+            // 
+            // Maitenance
+            // 
+            this.Maitenance.Controls.Add(this.metroTabPage1);
+            this.Maitenance.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Maitenance.Location = new System.Drawing.Point(0, 51);
+            this.Maitenance.Name = "Maitenance";
+            this.Maitenance.SelectedIndex = 0;
+            this.Maitenance.Size = new System.Drawing.Size(1386, 245);
+            this.Maitenance.TabIndex = 0;
+            this.Maitenance.UseCustomBackColor = true;
+            this.Maitenance.UseCustomForeColor = true;
+            this.Maitenance.UseSelectable = true;
+            this.Maitenance.UseStyleColors = true;
             // 
             // metroTabPage1
             // 
-            this.metroTabPage1.Controls.Add(this.metroPanel1);
+            this.metroTabPage1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.HorizontalScrollbarSize = 10;
-            this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage1.Location = new System.Drawing.Point(4, 35);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1378, 153);
+            this.metroTabPage1.Size = new System.Drawing.Size(1378, 206);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "metroTabPage1";
+            this.metroTabPage1.UseCustomBackColor = true;
+            this.metroTabPage1.UseCustomForeColor = true;
+            this.metroTabPage1.UseStyleColors = true;
             this.metroTabPage1.VerticalScrollbarBarColor = true;
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.VerticalScrollbarSize = 10;
-            // 
-            // metroPanel1
-            // 
-            this.metroPanel1.Controls.Add(this.label5);
-            this.metroPanel1.Controls.Add(this.btn_Residency);
-            this.metroPanel1.Controls.Add(this.label4);
-            this.metroPanel1.Controls.Add(this.btn_Indigency);
-            this.metroPanel1.Controls.Add(this.label3);
-            this.metroPanel1.Controls.Add(this.btn_BrgyBusinessPermit);
-            this.metroPanel1.Controls.Add(this.label2);
-            this.metroPanel1.Controls.Add(this.btn_BrgyFranchise);
-            this.metroPanel1.Controls.Add(this.label1);
-            this.metroPanel1.Controls.Add(this.btn_BrgyDocuments);
-            this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(0, 0);
-            this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(1378, 149);
-            this.metroPanel1.TabIndex = 2;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(533, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 29);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "";
-            // 
-            // btn_Residency
-            // 
-            this.btn_Residency.BackColor = System.Drawing.SystemColors.Menu;
-            this.btn_Residency.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_Residency.FlatAppearance.BorderSize = 0;
-            this.btn_Residency.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Residency.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Residency.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_Residency.Location = new System.Drawing.Point(496, 56);
-            this.btn_Residency.Name = "btn_Residency";
-            this.btn_Residency.Size = new System.Drawing.Size(116, 64);
-            this.btn_Residency.TabIndex = 28;
-            this.btn_Residency.Text = "Residency";
-            this.btn_Residency.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btn_Residency.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(411, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 29);
-            this.label4.TabIndex = 27;
-            this.label4.Text = "";
-            // 
-            // btn_Indigency
-            // 
-            this.btn_Indigency.BackColor = System.Drawing.SystemColors.Menu;
-            this.btn_Indigency.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_Indigency.FlatAppearance.BorderSize = 0;
-            this.btn_Indigency.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Indigency.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Indigency.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_Indigency.Location = new System.Drawing.Point(374, 56);
-            this.btn_Indigency.Name = "btn_Indigency";
-            this.btn_Indigency.Size = new System.Drawing.Size(116, 64);
-            this.btn_Indigency.TabIndex = 26;
-            this.btn_Indigency.Text = "Indigency";
-            this.btn_Indigency.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btn_Indigency.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(289, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 29);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "";
-            // 
-            // btn_BrgyBusinessPermit
-            // 
-            this.btn_BrgyBusinessPermit.BackColor = System.Drawing.SystemColors.Menu;
-            this.btn_BrgyBusinessPermit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_BrgyBusinessPermit.FlatAppearance.BorderSize = 0;
-            this.btn_BrgyBusinessPermit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BrgyBusinessPermit.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_BrgyBusinessPermit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_BrgyBusinessPermit.Location = new System.Drawing.Point(252, 56);
-            this.btn_BrgyBusinessPermit.Name = "btn_BrgyBusinessPermit";
-            this.btn_BrgyBusinessPermit.Size = new System.Drawing.Size(116, 64);
-            this.btn_BrgyBusinessPermit.TabIndex = 24;
-            this.btn_BrgyBusinessPermit.Text = "Business Permit";
-            this.btn_BrgyBusinessPermit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btn_BrgyBusinessPermit.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(168, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 29);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "";
-            // 
-            // btn_BrgyFranchise
-            // 
-            this.btn_BrgyFranchise.BackColor = System.Drawing.SystemColors.Menu;
-            this.btn_BrgyFranchise.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_BrgyFranchise.FlatAppearance.BorderSize = 0;
-            this.btn_BrgyFranchise.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BrgyFranchise.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_BrgyFranchise.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_BrgyFranchise.Location = new System.Drawing.Point(130, 56);
-            this.btn_BrgyFranchise.Name = "btn_BrgyFranchise";
-            this.btn_BrgyFranchise.Size = new System.Drawing.Size(116, 64);
-            this.btn_BrgyFranchise.TabIndex = 22;
-            this.btn_BrgyFranchise.Text = "Barangay Franchise";
-            this.btn_BrgyFranchise.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btn_BrgyFranchise.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Font = new System.Drawing.Font("Segoe Fluent Icons", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 29);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "";
-            // 
-            // btn_BrgyDocuments
-            // 
-            this.btn_BrgyDocuments.BackColor = System.Drawing.SystemColors.Menu;
-            this.btn_BrgyDocuments.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_BrgyDocuments.FlatAppearance.BorderSize = 0;
-            this.btn_BrgyDocuments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BrgyDocuments.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_BrgyDocuments.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_BrgyDocuments.Location = new System.Drawing.Point(8, 56);
-            this.btn_BrgyDocuments.Name = "btn_BrgyDocuments";
-            this.btn_BrgyDocuments.Size = new System.Drawing.Size(116, 64);
-            this.btn_BrgyDocuments.TabIndex = 20;
-            this.btn_BrgyDocuments.Text = "Barangay Clearance";
-            this.btn_BrgyDocuments.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btn_BrgyDocuments.UseVisualStyleBackColor = false;
             // 
             // Maintenance_Form
             // 
@@ -237,7 +105,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1386, 788);
             this.ControlBox = false;
-            this.Controls.Add(this.metroTabControl1);
+            this.Controls.Add(this.Maitenance);
+            this.Controls.Add(this.metroPanel2);
             this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -245,28 +114,19 @@
             this.Name = "Maintenance_Form";
             this.Text = "Maintenance_Form";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.metroTabControl1.ResumeLayout(false);
-            this.metroTabPage1.ResumeLayout(false);
-            this.metroPanel1.ResumeLayout(false);
-            this.metroPanel1.PerformLayout();
+            this.Load += new System.EventHandler(this.Maintenance_Form_Load);
+            this.metroPanel2.ResumeLayout(false);
+            this.metroPanel2.PerformLayout();
+            this.Maitenance.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private MetroFramework.Controls.MetroTabControl metroTabControl1;
+        private MetroFramework.Controls.MetroPanel metroPanel2;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroTabControl Maitenance;
         private MetroFramework.Controls.MetroTabPage metroTabPage1;
-        private MetroFramework.Controls.MetroPanel metroPanel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btn_Residency;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btn_Indigency;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btn_BrgyBusinessPermit;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_BrgyFranchise;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_BrgyDocuments;
     }
 }
