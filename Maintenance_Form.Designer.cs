@@ -30,10 +30,11 @@
         {
             this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.Maitenance = new MetroFramework.Controls.MetroTabControl();
-            this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
+            this.metroUI_BarangayOfficialsAndStaff = new MetroFramework.Controls.MetroTabControl();
+            this.metroTabPage_BarangayOfficialsAndStaff = new MetroFramework.Controls.MetroTabPage();
+            this.Purok = new MetroFramework.Controls.MetroTabPage();
             this.metroPanel2.SuspendLayout();
-            this.Maitenance.SuspendLayout();
+            this.metroUI_BarangayOfficialsAndStaff.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroPanel2
@@ -59,45 +60,62 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(27, 9);
+            this.metroLabel1.Location = new System.Drawing.Point(12, 13);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(111, 25);
+            this.metroLabel1.Size = new System.Drawing.Size(229, 25);
             this.metroLabel1.TabIndex = 2;
-            this.metroLabel1.Text = "metroLabel1";
+            this.metroLabel1.Text = "Barangay App Maintenance";
             this.metroLabel1.UseCustomBackColor = true;
             this.metroLabel1.UseCustomForeColor = true;
             // 
-            // Maitenance
+            // metroUI_BarangayOfficialsAndStaff
             // 
-            this.Maitenance.Controls.Add(this.metroTabPage1);
-            this.Maitenance.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Maitenance.Location = new System.Drawing.Point(0, 51);
-            this.Maitenance.Name = "Maitenance";
-            this.Maitenance.SelectedIndex = 0;
-            this.Maitenance.Size = new System.Drawing.Size(1386, 245);
-            this.Maitenance.TabIndex = 0;
-            this.Maitenance.UseCustomBackColor = true;
-            this.Maitenance.UseCustomForeColor = true;
-            this.Maitenance.UseSelectable = true;
-            this.Maitenance.UseStyleColors = true;
+            this.metroUI_BarangayOfficialsAndStaff.Controls.Add(this.metroTabPage_BarangayOfficialsAndStaff);
+            this.metroUI_BarangayOfficialsAndStaff.Controls.Add(this.Purok);
+            this.metroUI_BarangayOfficialsAndStaff.Dock = System.Windows.Forms.DockStyle.Top;
+            this.metroUI_BarangayOfficialsAndStaff.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
+            this.metroUI_BarangayOfficialsAndStaff.Location = new System.Drawing.Point(0, 51);
+            this.metroUI_BarangayOfficialsAndStaff.Name = "metroUI_BarangayOfficialsAndStaff";
+            this.metroUI_BarangayOfficialsAndStaff.SelectedIndex = 0;
+            this.metroUI_BarangayOfficialsAndStaff.Size = new System.Drawing.Size(1386, 245);
+            this.metroUI_BarangayOfficialsAndStaff.TabIndex = 0;
+            this.metroUI_BarangayOfficialsAndStaff.UseCustomBackColor = true;
+            this.metroUI_BarangayOfficialsAndStaff.UseCustomForeColor = true;
+            this.metroUI_BarangayOfficialsAndStaff.UseSelectable = true;
+            this.metroUI_BarangayOfficialsAndStaff.UseStyleColors = true;
             // 
-            // metroTabPage1
+            // metroTabPage_BarangayOfficialsAndStaff
             // 
-            this.metroTabPage1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.metroTabPage1.HorizontalScrollbarBarColor = true;
-            this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.HorizontalScrollbarSize = 10;
-            this.metroTabPage1.Location = new System.Drawing.Point(4, 35);
-            this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1378, 206);
-            this.metroTabPage1.TabIndex = 0;
-            this.metroTabPage1.Text = "metroTabPage1";
-            this.metroTabPage1.UseCustomBackColor = true;
-            this.metroTabPage1.UseCustomForeColor = true;
-            this.metroTabPage1.UseStyleColors = true;
-            this.metroTabPage1.VerticalScrollbarBarColor = true;
-            this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.VerticalScrollbarSize = 10;
+            this.metroTabPage_BarangayOfficialsAndStaff.HorizontalScrollbarBarColor = true;
+            this.metroTabPage_BarangayOfficialsAndStaff.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage_BarangayOfficialsAndStaff.HorizontalScrollbarSize = 10;
+            this.metroTabPage_BarangayOfficialsAndStaff.Location = new System.Drawing.Point(4, 35);
+            this.metroTabPage_BarangayOfficialsAndStaff.Margin = new System.Windows.Forms.Padding(6);
+            this.metroTabPage_BarangayOfficialsAndStaff.Name = "metroTabPage_BarangayOfficialsAndStaff";
+            this.metroTabPage_BarangayOfficialsAndStaff.Size = new System.Drawing.Size(1378, 206);
+            this.metroTabPage_BarangayOfficialsAndStaff.TabIndex = 0;
+            this.metroTabPage_BarangayOfficialsAndStaff.Text = "Barangay Officials and Staff";
+            this.metroTabPage_BarangayOfficialsAndStaff.UseCustomBackColor = true;
+            this.metroTabPage_BarangayOfficialsAndStaff.UseCustomForeColor = true;
+            this.metroTabPage_BarangayOfficialsAndStaff.UseStyleColors = true;
+            this.metroTabPage_BarangayOfficialsAndStaff.VerticalScrollbarBarColor = true;
+            this.metroTabPage_BarangayOfficialsAndStaff.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage_BarangayOfficialsAndStaff.VerticalScrollbarSize = 10;
+            // 
+            // Purok
+            // 
+            this.Purok.ForeColor = System.Drawing.SystemColors.Control;
+            this.Purok.HorizontalScrollbarBarColor = true;
+            this.Purok.HorizontalScrollbarHighlightOnWheel = false;
+            this.Purok.HorizontalScrollbarSize = 10;
+            this.Purok.Location = new System.Drawing.Point(4, 35);
+            this.Purok.Name = "Purok";
+            this.Purok.Size = new System.Drawing.Size(1378, 206);
+            this.Purok.TabIndex = 1;
+            this.Purok.Text = "Purok";
+            this.Purok.VerticalScrollbarBarColor = true;
+            this.Purok.VerticalScrollbarHighlightOnWheel = false;
+            this.Purok.VerticalScrollbarSize = 10;
             // 
             // Maintenance_Form
             // 
@@ -105,7 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1386, 788);
             this.ControlBox = false;
-            this.Controls.Add(this.Maitenance);
+            this.Controls.Add(this.metroUI_BarangayOfficialsAndStaff);
             this.Controls.Add(this.metroPanel2);
             this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -117,7 +135,7 @@
             this.Load += new System.EventHandler(this.Maintenance_Form_Load);
             this.metroPanel2.ResumeLayout(false);
             this.metroPanel2.PerformLayout();
-            this.Maitenance.ResumeLayout(false);
+            this.metroUI_BarangayOfficialsAndStaff.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -126,7 +144,8 @@
 
         private MetroFramework.Controls.MetroPanel metroPanel2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroTabControl Maitenance;
-        private MetroFramework.Controls.MetroTabPage metroTabPage1;
+        private MetroFramework.Controls.MetroTabControl metroUI_BarangayOfficialsAndStaff;
+        private MetroFramework.Controls.MetroTabPage metroTabPage_BarangayOfficialsAndStaff;
+        private MetroFramework.Controls.MetroTabPage Purok;
     }
 }
