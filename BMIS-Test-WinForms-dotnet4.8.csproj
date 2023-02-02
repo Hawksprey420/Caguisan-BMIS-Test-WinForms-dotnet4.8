@@ -73,6 +73,12 @@
     <Compile Include="Maintenance_Form.Designer.cs">
       <DependentUpon>Maintenance_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Officials_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Officials_Form.Designer.cs">
+      <DependentUpon>Officials_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Document_Form.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Maintenance_Form.resx">
       <DependentUpon>Maintenance_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Officials_Form.resx">
+      <DependentUpon>Officials_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
