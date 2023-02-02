@@ -71,5 +71,10 @@ namespace BMIS_Test_WinForms_dotnet4._8
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

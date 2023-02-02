@@ -42,6 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_BrgyDocuments = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroPanel1.SuspendLayout();
@@ -55,7 +56,7 @@
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
-            this.metroTabControl1.Size = new System.Drawing.Size(1498, 851);
+            this.metroTabControl1.Size = new System.Drawing.Size(1386, 851);
             this.metroTabControl1.TabIndex = 0;
             this.metroTabControl1.UseCustomBackColor = true;
             this.metroTabControl1.UseCustomForeColor = true;
@@ -70,7 +71,7 @@
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 41);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1490, 806);
+            this.metroTabPage1.Size = new System.Drawing.Size(1378, 806);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Documents";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
@@ -80,6 +81,7 @@
             // metroPanel1
             // 
             this.metroPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.metroPanel1.Controls.Add(this.button1);
             this.metroPanel1.Controls.Add(this.label5);
             this.metroPanel1.Controls.Add(this.btn_Residency);
             this.metroPanel1.Controls.Add(this.label4);
@@ -96,7 +98,7 @@
             this.metroPanel1.HorizontalScrollbarSize = 10;
             this.metroPanel1.Location = new System.Drawing.Point(0, 0);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(1490, 806);
+            this.metroPanel1.Size = new System.Drawing.Size(1378, 806);
             this.metroPanel1.TabIndex = 2;
             this.metroPanel1.UseCustomBackColor = true;
             this.metroPanel1.UseStyleColors = true;
@@ -254,14 +256,31 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 851);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1498, 12);
+            this.panel1.Size = new System.Drawing.Size(1386, 0);
             this.panel1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(795, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(144, 71);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Exit";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Document_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1498, 863);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.metroTabControl1);
@@ -294,5 +313,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_Indigency;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
