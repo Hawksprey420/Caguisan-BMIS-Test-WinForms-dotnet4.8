@@ -31,5 +31,10 @@ namespace BMIS_Test_WinForms_dotnet4._8
         {
 
         }
+
+        private void tabPage_Purok_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

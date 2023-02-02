@@ -46,14 +46,28 @@
             this.btn_BrgyDocuments = new System.Windows.Forms.Button();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.tabPage_Purok = new System.Windows.Forms.TabPage();
+            this.bttn_AddNew = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewImageColumn();
             metroTab_OfficialsStaff = new MetroFramework.Controls.MetroTabPage();
             this.metroPanel1.SuspendLayout();
+            this.metroPanel2.SuspendLayout();
             this.metroTabControl1.SuspendLayout();
             metroTab_OfficialsStaff.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroPanel1
             // 
+            this.metroPanel1.Controls.Add(this.bttn_AddNew);
             this.metroPanel1.Controls.Add(this.label1);
             this.metroPanel1.Controls.Add(this.button1);
             this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -103,13 +117,15 @@
             // metroPanel2
             // 
             this.metroPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.metroPanel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.metroPanel2.Controls.Add(this.dataGridView1);
             this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroPanel2.HorizontalScrollbarBarColor = true;
             this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel2.HorizontalScrollbarSize = 10;
             this.metroPanel2.Location = new System.Drawing.Point(0, 0);
             this.metroPanel2.Name = "metroPanel2";
-            this.metroPanel2.Size = new System.Drawing.Size(1058, 806);
+            this.metroPanel2.Size = new System.Drawing.Size(1058, 594);
             this.metroPanel2.TabIndex = 0;
             this.metroPanel2.VerticalScrollbarBarColor = true;
             this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
@@ -200,7 +216,7 @@
             this.metroTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroTabControl1.Location = new System.Drawing.Point(0, 50);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 1;
+            this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(1066, 639);
             this.metroTabControl1.TabIndex = 1;
             this.metroTabControl1.UseCustomBackColor = true;
@@ -216,7 +232,7 @@
             metroTab_OfficialsStaff.HorizontalScrollbarSize = 10;
             metroTab_OfficialsStaff.Location = new System.Drawing.Point(4, 41);
             metroTab_OfficialsStaff.Name = "metroTab_OfficialsStaff";
-            metroTab_OfficialsStaff.Size = new System.Drawing.Size(1058, 806);
+            metroTab_OfficialsStaff.Size = new System.Drawing.Size(1058, 594);
             metroTab_OfficialsStaff.TabIndex = 0;
             metroTab_OfficialsStaff.Text = "Barangay Staff and Officials";
             metroTab_OfficialsStaff.VerticalScrollbarBarColor = true;
@@ -231,6 +247,92 @@
             this.tabPage_Purok.Size = new System.Drawing.Size(1058, 594);
             this.tabPage_Purok.TabIndex = 1;
             this.tabPage_Purok.Text = "Purok";
+            this.tabPage_Purok.Click += new System.EventHandler(this.tabPage_Purok_Click);
+            // 
+            // bttn_AddNew
+            // 
+            this.bttn_AddNew.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bttn_AddNew.BackColor = System.Drawing.Color.Aqua;
+            this.bttn_AddNew.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bttn_AddNew.FlatAppearance.BorderSize = 0;
+            this.bttn_AddNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttn_AddNew.Font = new System.Drawing.Font("Segoe UI Variable Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttn_AddNew.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.bttn_AddNew.Location = new System.Drawing.Point(756, 5);
+            this.bttn_AddNew.Name = "bttn_AddNew";
+            this.bttn_AddNew.Size = new System.Drawing.Size(119, 39);
+            this.bttn_AddNew.TabIndex = 23;
+            this.bttn_AddNew.Text = "Add New ";
+            this.bttn_AddNew.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.bttn_AddNew.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7,
+            this.Column8,
+            this.Column9});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1058, 594);
+            this.dataGridView1.TabIndex = 2;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "ID";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "NAME";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "CHAIRMANSHIP";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "POSITION";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "TERM START";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "TERM END";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "STATUS";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "";
+            this.Column9.Name = "Column9";
             // 
             // Maintenance_Form
             // 
@@ -244,8 +346,10 @@
             this.Text = "Form2";
             this.metroPanel1.ResumeLayout(false);
             this.metroPanel1.PerformLayout();
+            this.metroPanel2.ResumeLayout(false);
             this.metroTabControl1.ResumeLayout(false);
             metroTab_OfficialsStaff.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -269,5 +373,16 @@
         private System.Windows.Forms.Button btn_BrgyDocuments;
         private MetroFramework.Controls.MetroTabControl metroTabControl1;
         private System.Windows.Forms.TabPage tabPage_Purok;
+        private System.Windows.Forms.Button bttn_AddNew;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewImageColumn Column8;
+        private System.Windows.Forms.DataGridViewImageColumn Column9;
     }
 }
